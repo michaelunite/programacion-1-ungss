@@ -7,12 +7,9 @@ public class Ejercicio22 {
     static String sinreptidos(String s){
         String nueva="";
         for (int i = 0; i < s.length(); i++) {
-            for (int j = i+1; j <s.length(); j++) {
-
-                if (s.charAt(i)!=s.charAt(j)){
-                    nueva=nueva+s.charAt(j);
-                }
-                
+            char c=s.charAt(i);
+            if (nueva.indexOf(c)==-1){
+                nueva+=c;
             }
         }
         return nueva;
