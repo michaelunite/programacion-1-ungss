@@ -1,7 +1,7 @@
 public class Ejercicio12 {
     public static void main(String[] args){
-        double x=4;
-        int a=2;
+        double x=2;
+        int a=4;
         System.out.println(potencia(x,a));
 
     }
